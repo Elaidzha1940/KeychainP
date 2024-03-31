@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4111AA12BB984690017E7F8 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4111AA02BB984690017E7F8 /* KeychainSwift */; };
+		E4111AA42BB9886D0017E7F8 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4111AA32BB9886D0017E7F8 /* KeychainSwift */; };
 		E45F59592BB8A8CC00A222BC /* KeychainPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F59582BB8A8CC00A222BC /* KeychainPApp.swift */; };
 		E45F595B2BB8A8CC00A222BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F595A2BB8A8CC00A222BC /* ContentView.swift */; };
 		E45F595D2BB8A8CD00A222BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F595C2BB8A8CD00A222BC /* Assets.xcassets */; };
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4111AA12BB984690017E7F8 /* KeychainSwift in Frameworks */,
+				E4111AA42BB9886D0017E7F8 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = KeychainP;
 			packageProductDependencies = (
-				E4111AA02BB984690017E7F8 /* KeychainSwift */,
+				E4111AA32BB9886D0017E7F8 /* KeychainSwift */,
 			);
 			productName = KeychainP;
 			productReference = E45F59552BB8A8CC00A222BC /* KeychainP.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = E45F594C2BB8A8CC00A222BC;
 			packageReferences = (
-				E4111A9F2BB984690017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				E4111AA22BB9886D0017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = E45F59562BB8A8CC00A222BC /* Products */;
 			projectDirPath = "";
@@ -354,7 +354,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E4111A9F2BB984690017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+		E4111AA22BB9886D0017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
 			requirement = {
@@ -365,9 +365,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E4111AA02BB984690017E7F8 /* KeychainSwift */ = {
+		E4111AA32BB9886D0017E7F8 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4111A9F2BB984690017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			package = E4111AA22BB9886D0017E7F8 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
